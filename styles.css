@@ -100,7 +100,7 @@ a {
   padding: 0;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   body {
     height: 100vh;
     display: flex;
@@ -116,7 +116,9 @@ a {
     justify-content: center;
     max-width: 850px;
   }
-
+  .card {
+    height: 450px;
+  }
   .sedans {
     border-radius: 10px 0 0 10px;
   }
